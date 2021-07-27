@@ -11,16 +11,25 @@ file: styles.css
  /* heading */
  /*body*/
 
- article h1 {
+ header {
    display: block;
    text-align: center;
+   background-image: url(background.png);
+ }
+ .form {
  }
  .info {
    display: flex;
    flex-direction: row;
+   justify-content: space-around;
+   padding: 5px;
+   align-items: center;
+   margin: auto;
  }
  .map {
    width: 100%;
+   margin:auto;
+   text-align: center;
 
   box-shadow: var(--shadow);
  }
@@ -43,6 +52,18 @@ file: styles.css
    border-style: groove;
    border-color: grey;
  }
+ .card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+   margin: auto;
+ }
+ .littlecard{
+   display: flex;
+   flex-direction: row;
+
+ }
  /* footer */
  footer {
    background: black;
@@ -59,4 +80,5 @@ file: styles.css
     align-items: center;
     text-align: center;
   }
+
 }
